@@ -6,21 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Website</title>
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-
-    <style>
-        #header {
-            font-weight: bold;
-        }
-        .header{
-            padding: 7px 15px 7px 15px;
-        }
-        .row {
-            padding: 15px;
-        }
-    </style>
-
     <nav>
         <ul>
             <li><a href="#about">About Me</a></li>
@@ -30,11 +18,11 @@
 
     <section>
         <h1>Gina A.</h1>
-        <p>
+        <p id="location">
             <!--
             This flag is from: <a href="https://commons.wikimedia.org/wiki/File:Flag_of_the_United_States.svg">Dbenbenn, Zscout370, Jacobolus, Indolences, Technion.</a>, Public domain, via Wikimedia Commons
             -->
-            <img src="Flag_of_the_United_States.svg.png" alt="The United States flag." height="40%" width="40"> 
+            <img src="Flag_of_the_United_States.svg.png" alt="The United States flag." id="flag"> 
             United States | 
             <a href="https://www.github.com/gg99g9">gg99g9 on GitHub</a>
         </p>
@@ -43,7 +31,7 @@
     <section id="about">
         <h3>About Me</h3>
         <figure>
-            <img src="picture.png" alt="My first initial." width="15%" height="15%">
+            <img src="picture.png" alt="My first initial." id="logo">
             <figcaption>My Logo</figcaption>
         </figure>
 

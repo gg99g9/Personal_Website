@@ -1,0 +1,35 @@
+/* stylesheet.css */
+
+* {
+    box-sizing: border_box;
+}
+
+#header {
+    font-weight: bold;
+}
+
+.header{
+    padding: 7px 15px 7px 15px;
+}
+
+.row {
+    padding: 15px;
+}
+
+#location {
+    width: 270px;
+    height: auto;
+    background-color: pink;
+    border: 10px solid lightgreen;
+    padding: 10px
+}
+
+#flag {
+    width: 40px;
+    height: auto;
+}
+
+#logo {
+    width: 100px;
+    height: auto;
+}
